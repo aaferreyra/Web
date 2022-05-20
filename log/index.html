@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es-es">
+	<head>
+		<link href="css/style.css" rel="stylesheet">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>VideoTrends</title>
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+  	<content id="loging" style="display: block;">
+		<header>
+			<img id="logo" src="img/logo.png" alt="Logo">
+			<h1 class="cabeza" id="text"><a id="logotext" href="index.html">VideoTrends    </a></h1>
+			<h2 class="cabeza" >Mira tus videos de YouTube como quieras</h2>
+		</header>
+		<nav id="nav1">
+			<a class="barra" href="registro.html">Crear una Cuenta | </a>
+			<a class="barra" href="#">Olvide mi contraseña | </a>
+			<a class="barra" href="#">Acerca de nosotros</a>
+		</nav>
+		<section>
+			<article id="article1">
+				<img id="img1" src="img/lego.png" alt="Muñeco de Lego">
+			</article>
+			<aside id="aside1">
+				<form id="form1" method="post">
+					<input type="email" id="mail" name="mail"><br>
+					<label for="mail">E-mail</label><br>
+					<input type="password" id="pass" name="pass"><br>
+					<label for="pass">Contraseña</label><br>
+					<button type="submit" id="inicio">Iniciar Sesión</button><hr>
+				</form>
+					<button type="submit" id="crear" onclick="ocultar()">Crear una Cuenta</button>
+			</aside>
+		</section>
+		<footer>
+			<a class="pie" href="https://www.youtube.com">YouTube</a>
+			<a class="pie" href="https://ugd.edu.ar"> - UGD - </a>
+			<a class="pie" href="https://campusvirtual.ugd.edu.ar/">Campus Virtual</a>
+		</footer>
+	</content>
+
+	<content id="registrar" style="display: none;">
+		<header>
+			<h1 id="cabreg">
+				Registro Usuarios
+			</h1>
+		</header>
+		<nav id="nav2">
+			<a class="barra" href="#">Crear una Cuenta | </a>
+			<a class="barra" href="#">Olvide mi contraseña | </a>
+			<a class="barra" href="#">Acerca de nosotros</a>
+		</nav>
+		
+		<aside id="aside2">
+			<form id="form2">
+				<p class="datos">
+					Datos de Inicio de Sesion
+				</p>
+				<div>
+					<label class="label" for="mail">E-mail*</label>
+					<input type="email" class="input" id="mail1" name="mail" required><br>
+				</div>
+				<div>
+					<label class="label" for="pass">Contraseña*</label>
+					<input type="password" class="input" id="pass1" name="pass" required><br>
+				</div>
+				<div>
+					<label class="label" for="repass">Repetir Contraseña*</label>
+					<input type="password" class="input" id="repass" name="repass" required><br>
+				</div>
+				<p class="datos">
+					Datos Personales
+				</p>
+				<div>
+					<label class="label" for="nombre">Nombre</label>
+					<input type="text" maxlength="60" class="input" id="nombre" name="nombre"><br>
+				</div>
+				<div>
+					<label class="label" for="apellido">Apellido</label>
+					<input type="text" maxlength="60" class="input" id="apellido" name="apellido"><br>
+				</div>
+				<div>
+					<label class="label" for="miro-radiobutton">Genero</label>
+					<div class="option">
+						<label class="label" id="label2">
+							<input type="radio" value="0" name="radio" checked>
+							<span>Masculino</span>
+						</label>
+						<label class="label" id="label3">
+							<input type="radio" value="1" name="radio">
+							<span>Femenino</span>
+						</label><br>
+					</div>
+				</div>
+				<div>
+					<label class="label" for="text">Numero de Telefono</label>
+					<input type="tel" class="input" id="num" name="num"><br>
+				</div>
+				<div>
+					<label class="label" for="fec">Fecha de Nacimiento</label>
+					<input type="date" value=" " class="input3" id="fec" name="fec"><br>
+				</div>
+				<div>
+					<label class="label" for="pag">Pagina Web</label>
+					<input type="url" class="input" id="pag" name="pag"><br>
+				</div>
+				<p class="datos">
+					Datos de localizacion
+				</p>
+				<div>
+					<label class="label" for="pais">Pais</label>
+					<select class="input2" id="pais" name="pais">
+						<option></option>
+						<option>Argentina</option>
+						<option>Paraguay</option>
+						<option>Brasil</option>
+						<option>Uruguay</option>
+						<option>Chile</option>
+						<option>Bolivia</option>
+					</select><br>
+				</div>
+				<div>
+					<label class="label" for="prov">Provincia/Estado</label>
+					<select class="input2" id="prov" name="prov">
+						<option></option>
+					</select><br>
+				</div>
+				<div>
+					<label class="label" for="ciud">Ciudad</label>
+					<select class="input2" id="ciud" name="ciud">
+						<option></option>
+					</select><br>
+				</div>
+				<div>
+					<label class="label" for="pacalleg">Calle</label>
+					<input class="input" type="text" id="calle" name="calle"><br>
+				</div>
+				<div>
+					<label class="label" for="altura">Altura</label>
+					<input class="input" type="number" id="altura" name="altura"><br>
+				</div>
+				<div>
+					<label class="label">Coordenadas</label>
+					<div id="coorde">
+						<input class="input1" type="number" min="0" id="lat" name="lat">
+						<label class="label1" for="lat">Lat</label>
+						<input class="input1" type="number" min="0" id="long" name="long">
+						<label class="label1" for="long">Long</label>
+					</div>
+				</div>
+				<button type="submit" id="crear1">Crear mi Cuenta</button>
+			</form>
+		</aside>
+		
+		
+		<article id="article2">
+			<img id="img2" src="img/lego.png" alt="Muñeco de Lego">
+			<p id="condiciones">Al hacer clic en "Crear mi Cuenta", aceptas las condiciones y confirmas que leíste nuestra Politica de datos, incluido el uso de cookies</p>
+		</article>
+		<footer id="pie2">
+			<a class="pie" href="https://www.youtube.com">YouTube</a>
+			<a class="pie" href="https://ugd.edu.ar"> - UGD - </a>
+			<a class="pie" href="https://campusvirtual.ugd.edu.ar/">Campus Virtual</a>
+		</footer>
+	</content>
+		
+	</body>
+	
+</html>

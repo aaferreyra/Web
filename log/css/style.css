@@ -1,0 +1,226 @@
+header, nav, article, aside, footer {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+body, html {
+	padding: 0;
+	margin: 0;
+}
+body {
+	margin: 0 auto;
+	width: 660px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header {
+	display: flex;
+	justify-content: center;
+  	align-items: baseline;
+	height: 40px;
+}
+#text {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#nav1 { 
+	text-align: center;
+	height: 60px;
+}
+#nav2 { 
+	text-align: left;
+	height: 30px;
+}
+#article1 {
+	height: 400px;
+	width: 330px;
+	float: left;
+}
+#article2 {
+	height: 400px;
+	width: 260px;
+	float: right ;
+}
+#aside1 {
+	height: 400px;
+	width: 330px;
+	float: right;
+}
+#aside2 {
+	height: 450px;
+	overflow: auto;
+	width: 350px;
+	float: left;
+}
+footer {
+	background-color: black;
+	text-align: center;
+	align-items: center;
+	font-size: 1.3em;
+	height: 40px;
+	line-height: 40px;
+	clear: both;
+}
+#pie2 {
+	margin-top: 465px;
+}
+.barra, .barra:link {
+	color: black;
+	text-decoration: none;
+}
+#logo {
+	height: 30px;
+	width: 30px;
+	
+}
+#img1 {
+	height: 390px;
+	width: 330px;
+	background-color: beige;
+	border-radius: 15%;
+}
+#img2 {
+	height: 300px;
+	width: 240px;
+	background-color: beige;
+	margin-left: 10px;
+}
+#logotext:hover ,#logotext:link{
+	color: red;
+	text-decoration: none;
+}
+#logotext {
+	color: black;
+}
+h1 {
+  font-size: 1.5em;
+}
+#cabreg {
+	font-size: 1em;
+	font-weight:500;
+}
+h2 {
+	font-size: 1em;
+	font-weight:500;
+}
+
+.pie, .pie:link {
+	color: white;
+	text-decoration: none;
+}
+#form1 {
+	text-align: center;
+	font-size: 1.3em;
+	border-radius: 0%;
+}
+div {
+	display: inline-block;
+	margin-bottom: 5px;
+	width: 330px;
+}
+#form2 {
+	text-align: left;
+}
+#mail, #pass {
+	height: 25px;
+	width: 300px;
+	border: 1px solid gray;
+	margin-top: 20px;
+	
+}
+#inicio, #crear {
+	height: 50px;
+	width: 310px;
+	font-size: 1.1em;
+	background-color: white;
+	border: 1px solid gray;
+
+}
+#crear {
+	float: left ;
+	margin-left: 10px;
+}
+.input {
+	height: 20px;
+	width: 200px;
+	border: 1px solid gray;
+	float: right ;
+}
+.input1 {
+	height: 20px;
+	width: 70px;
+	border: 1px solid gray;
+}
+.input2 {
+	height: 20px;
+	width: 206px;
+	border: 1px solid gray;
+	float: right ;
+}
+.input3 {
+	height: 20px;
+	width: 203px;
+	border: 1px solid gray;
+	float: right ;
+}
+#coorde {
+	width: 206px;
+	float: right ;
+}
+.option {
+	width: 206px;
+	float: right ;
+}
+#inicio {
+	margin-top: 20px;
+	margin-bottom: 85px;
+}
+#crear {
+	margin-top: 15px;
+}
+hr{
+	color: black;
+	border: 1px solid;
+}
+#crear1 {
+	height: 50px;
+	width: 310px;
+	font-size: 1.1em;
+	background-color: white;
+	border: 1px solid gray;
+}
+.datos {
+	font-size: 1em;
+}
+#condiciones {
+	font-size: 0.8em;
+	height: 30px;
+	width: 240px;
+	margin-left: 10px;
+}
+.barra {
+	font-size: 0.7em;
+	margin-left: 5px;
+}
+.label {
+	font-size: 0.7em;
+	margin-left: 15px;
+	line-height: 20px;
+	float: left;
+}
+.label1 {
+	font-size: 0.7em;
+	line-height: 20px;
+}
+#label2 {
+	margin-left: -5px;
+}
+#label3 {
+	margin-left: 15px;
+	float: right;
+}
+#aside2::-webkit-scrollbar {
+	width: 7px;
+}
+#aside2::-webkit-scrollbar-thumb {
+	background: brown;
+}
