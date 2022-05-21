@@ -173,6 +173,7 @@ div {
 #inicio {
 	margin-top: 20px;
 	margin-bottom: 85px;
+	margin-left: 10px;
 }
 #crear {
 	margin-top: 15px;
@@ -223,4 +224,8 @@ hr{
 }
 #aside2::-webkit-scrollbar-thumb {
 	background: brown;
+}
+#map { 
+	height: 200px;
+	width: 330px; 
 }
